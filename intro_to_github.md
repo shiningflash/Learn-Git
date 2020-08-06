@@ -23,6 +23,7 @@ There are various remote repository hosting sites:
 
 #### git push
 __(push the changes to github repository)__
+
 ** *Now, go to the repository using [cd repository_name], do some change in any file, say README.md using [gedit README.md], Then commit it using [git commit -a -m "some messages"] and then push the changes to github repository using the following command* **
 ```sh
 ~$  git push
