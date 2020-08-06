@@ -7,12 +7,12 @@ Git
 (Git is a free and open source distributed version control system for tracking changes in source code during software development)
 
 -------------------------------------
-#### User configuration
+### User configuration
 ```sh
 ~$ git config --global user.email "me@example.com"
 ~$ git config --global user.name "My Name"
 ```
-#### Working with git
+### Working with git
 ```sh
 ~$ mkdir my_repo # creating a new repository
 ~$ cd my_repo
@@ -44,7 +44,7 @@ Git
 ~$ git diff --stage # watching new changes that staged
 ```
 
-#### Delete or Rename
+### Delete or Rename
 ```sh
 ~$ ls -l # getting file list with details
 ~$ git rm filename.extension # removing file from git
@@ -76,7 +76,7 @@ Git
 ~$ git add .gitignore
 ~$ git commit -m 'add a gitignore file, ignoring .DS_STORE files'
 ```
-#### Undoing changes before commiting (unstaged)
+### Undoing changes before commiting (unstaged)
 * **checkout** - git checkout restores files to the latest stored snapshot, reverting any changes before staging
 
 ** *do some change to any file and go for next instructions -* **
@@ -85,7 +85,7 @@ Git
 ~$ git checkout my_file.py # restore the changes back
 ~$ git status # now everything looks fine
 ```
-#### Undoing changes after committed (staged)
+### Undoing changes after committed (staged)
 * **git reset** - git reset used to remove changes from the staging area.
 
 ```sh
@@ -97,7 +97,7 @@ Git
 ~$ git commit -m "now ok!" # finally commit the changes
 ```
 
-#### Amending commits
+### Amending commits
 * ```git commit --amend``` - allows us to overwrite the previous commit
 ```sh
 ~$ touch d.py e .py # new two file created
@@ -107,7 +107,7 @@ Git
 ~$ git commit --amend # now add the new commit with overwriting previous one
 ```
 
-#### Rollbacks
+### Rollbacks
 * **Rollback** - if we commit a code that contains bug, we can use rollback to go back to previous commit
 * So, git revert is basically a new commit which is created with inverse changes. It cancels previous changes. [a bit like undo command]
 * Let's create a python code with bug to check out. Also run it to test that it's actually buggy. Now -
@@ -129,7 +129,7 @@ Git
 ~$ git status # now output.txt file untracked from staging area
 ~$ git commit -m "now ok!" # finally commit the changes
 ```
-
+----------------------
 Branching and Merging
 ---------------------
 * **Branch** - is a pointer to a particular commit.
@@ -137,7 +137,7 @@ Branching and Merging
 * The purpose of organizing repositories into branches - to enable changes to be worked on without disrupting the most current working directory.
 * So, by creating new branches - we can experiment without breaking what already works.
 
-#### Creating branches
+### Creating branches
 * We can use the git ```$ branch command``` to list, create, delete and manipulate branches.
 ```sh
 ~$ git branch # now only 'master' branch
@@ -185,7 +185,7 @@ Branching and Merging
 ```sh
 ~$ git merge --abort
 ```
-
+-------------------------
 | Command | Explanation |
 | ------- | ----------- |
 | git branch | used to manage branches |
@@ -198,5 +198,4 @@ Branching and Merging
 | git merge --abort | if there are merge conflicts (meaning files are incompatible), it aborts merge action |
 | git log --graph --oneline | shows summarize view of the commit history|
 ----------------------------------------
-#### [Before Version Control]()
-#### [Github Command]()
+#### Also check:  [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md) [Github Command](https://github.com/shiningflash/learn-git/blob/master/github.md)

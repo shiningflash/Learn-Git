@@ -8,9 +8,11 @@ Introduction to Git and Github
 ------------------------------------
 
 There are various remote repository hosting sites:
+
 [GitHub](https://github.com), [BitBucket](https://bitbucket.org/), [Gitlab](http://www.gitlab.com/).
 
 [Create a new github account](https://github.com/join)
+
 [Create a new repository](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
 
 ------------------------------------
@@ -52,7 +54,7 @@ __(To retrieve all new changes from the github repository, use the git pull comm
     ```
 ------------------------------------------------
 
-#### Using remote repository
+### Using remote repository
 ```sh
 ~$ git remote -v
 ```
@@ -87,5 +89,4 @@ __git fetch vs git pull:__ `git fetch` only fetches / retrieves the remote updat
 | git fetch | download remote branches from the remote repos without merging the content automatically |
 | git branch -r | lists all remote branches |
 ----------------------------------------
-#### [Before Version Control]()
-#### [Git Command]()
+#### Also check:  [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md)  [Git Command](https://github.com/shiningflash/learn-git/blob/master/git.md)
