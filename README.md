@@ -1,12 +1,16 @@
 [Introduction to Git and Github](https://github.com/shiningflash/Learn-Git)
 ==============================
+
 ### [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md)
+---------------------------
 Basic linux command eg.
 * how to create and edit file
 * check the changes between files
 * store the changes and apply the chnages
 
+
 ### [Git Command](https://github.com/shiningflash/learn-git/blob/master/git.md)
+--------------------------
 (Git is a free and open source distributed version control system for tracking changes in source code during software development)
 * User Configuration
 * Working with git
@@ -20,7 +24,9 @@ Basic linux command eg.
     * Merging
     * Resolving merge conflict etc.
 
+
 ### [Github Command](https://github.com/shiningflash/learn-git/blob/master/github.md)
+------------------------
 (Github Inc. is United States-based company that provides hosting for software developers and version control system using Git)
 * Basic Command
     * git clone
