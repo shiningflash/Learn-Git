@@ -198,4 +198,6 @@ Branching and Merging
 | git merge --abort | if there are merge conflicts (meaning files are incompatible), it aborts merge action |
 | git log --graph --oneline | shows summarize view of the commit history|
 ----------------------------------------
-#### Also check:  [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md) [Github Command](https://github.com/shiningflash/learn-git/blob/master/github.md)
+#### Also check:
+* [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md)
+* [Github Command](https://github.com/shiningflash/learn-git/blob/master/github.md)

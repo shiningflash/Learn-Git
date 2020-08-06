@@ -38,4 +38,6 @@ Before Version Control
 ~$ java <file_name>
 ```
 ----------------------------------------
-#### Also check:  [Git Command](https://github.com/shiningflash/learn-git/blob/master/git.md) [Github Command](https://github.com/shiningflash/learn-git/blob/master/github.md)
+#### Also check:
+* [Git Command](https://github.com/shiningflash/learn-git/blob/master/git.md)
+* [Github Command](https://github.com/shiningflash/learn-git/blob/master/github.md)
