@@ -89,6 +89,17 @@ __git fetch vs git pull:__ `git fetch` only fetches / retrieves the remote updat
 | git fetch | download remote branches from the remote repos without merging the content automatically |
 | git branch -r | lists all remote branches |
 ----------------------------------------
+### Solving conflicts
+__git rebase:__ `git rebase` is an alternative of `git merge`. Rebasing instead of merging rewrites history and maintains linearity, making for cleaner code and also helps in identifying bugs.
+
+__Best practices for collaboration:__
+* Always synchronize your branches before starting any work of your own.
+* Avoid having very large changes that modify a lot of different things.
+* When working on a big change, it makes sense to have a separate feature branch.
+* Have the latest version of the projects on the master branch and the stable version of the project on a separate branch.
+* __Having good commit messages is important.__
+
+----------------------------------------
 #### Also check:
 * [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md)
 * [Git Command](https://github.com/shiningflash/learn-git/blob/master/git.md)
