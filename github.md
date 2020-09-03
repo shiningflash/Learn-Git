@@ -99,6 +99,44 @@ __Best practices for collaboration:__
 * Have the latest version of the projects on the master branch and the stable version of the project on a separate branch.
 * __Having good commit messages is important.__
 
+##### Forking
+A way of creating a copy of the given repository so that it belongs to our user.
+
+##### Pull Request
+A commit or series of commits that you send to the owner of the repository so that they incorporate in their tree.
+
+##### workflow:
+--------------
+**fork the repo** you want to work on or change or edit
+|
+**clone the forked** repo to your local directory
+|
+go to the local directory (then check log and so on)
+|
+**add a new branch and shift** to it
+```(git checkout -b <branch-name>)```
+|
+now change or add any file to the branch, add it and then commit
+|
+**create corresponding remote branch and push** the changes to it
+```(git push -u origin <branch-name>)```
+---------
+
+##### Squash
+Squash is a git option to collapse all the incremental commits in your pull request into a single commit. If you use Github interface, it will squash all your commits into one. Then it will give you the option to edit the commit message.
+
+##### Managing projects
+
+* It's important that you understand any changes you accept.
+* Use a **Issue Tracker** so that you can learn about who is working on what and you can manage them easily.
+* Use **Bug Tracker** to track bugs in your project (popularly used - ``Bugzilla``).
+* Use **Issues** and you can assign anyone with the issues to fix. And, when you are fixed with the issues, add ```'Closes #<issue_id>'``` (eg, Closes #1) at the last of the commit message, so that the issue will be automatically deleted from the Issues.
+
+##### some advice:
+* reply promptly to pull-requests
+* understand any changes you accept
+* use an issue-tracker
+
 ----------------------------------------
 #### Also check:
 * [Before Version Control](https://github.com/shiningflash/learn-git/blob/master/before_version_control.md)
