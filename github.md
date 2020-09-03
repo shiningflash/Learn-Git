@@ -106,7 +106,9 @@ A way of creating a copy of the given repository so that it belongs to our user.
 A commit or series of commits that you send to the owner of the repository so that they incorporate in their tree.
 
 ##### workflow:
+
 --------------
+
 **fork the repo** you want to work on or change or edit
 |
 **clone the forked** repo to your local directory
@@ -120,6 +122,7 @@ now change or add any file to the branch, add it and then commit
 |
 **create corresponding remote branch and push** the changes to it
 ```(git push -u origin <branch-name>)```
+
 ---------
 
 ##### Squash
